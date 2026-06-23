@@ -1,6 +1,7 @@
 # Domino Playground
 
 Domino Playground is a Roblox experience built with Rojo and Luau. Players can spawn, push, and reset large domino layouts, collect Dots, buy more dominoes, open crates, equip skins, and interact with tutorial, leaderboard, feedback, teleport, and shop UI.
+Play here: [game](https://www.roblox.com/games/14841685174/Domino-Playground#!/game-instances)
 
 ## Project Overview
 
