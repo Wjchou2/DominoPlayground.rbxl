@@ -1,0 +1,13 @@
+--local TextChannels = game:GetService("TextChatService"):WaitForChild("TextChannels")
+
+--local messages = {
+--	"<font color='#00C3FF'>[Server]: Use the admin panel button to troll! </font>",
+--	"<font color='#00C3FF'>[Server]: Earn XP by completing games and trolling others </font>",
+--}
+--wait(2)
+--local pickMessage = messages[math.random(1, #messages)]
+--TextChannels.RBXSystem:DisplaySystemMessage(pickMessage)
+--while wait(1) do -- Change the number in wait() to delay the messages. Is in seconds.
+--	local pickMessage = messages[math.random(1, #messages)]
+--	TextChannels.RBXSystem:DisplaySystemMessage(pickMessage)
+--end

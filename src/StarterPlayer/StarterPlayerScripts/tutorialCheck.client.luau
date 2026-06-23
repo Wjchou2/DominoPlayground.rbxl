@@ -1,0 +1,11 @@
+----dataStore=require(game.ServerScriptService.datastoreControl)
+--tweenService=game:GetService("TweenService")
+----game.Players.PlayerAdded:Connect(function(player)
+--	wait(1)
+--	--if dataStore.getValue(player.UserId)==true then
+--	--	dataStore.setValue(player.UserId, true)	
+--	--else
+--	local cameraTween=tweenService:Create(game.Workspace.Camera,TweenInfo.new(1),{CFrame=game.Workspace.tutorialPoints.camPos1.CFrame*CFrame.Angles(game.Workspace.tutorialPoints.viewPoint1.Orientation)})
+--	cameraTween:Play()
+--	--end
+----end)
