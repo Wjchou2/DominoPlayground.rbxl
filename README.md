@@ -6,7 +6,7 @@ Domino Playground is a Roblox experience built with Rojo and Luau. Players can s
 
 - Procedural domino layouts are created by server scripts and placed into `workspace`.
 - Touch/click interactions trigger domino fall animations and local sound feedback.
-- Player progress is stored with Roblox DataStores through shared leaderstat helpers.
+- Player progress is stored with Roblox DataStores through shared leaderstat helper modules.
 - Crates roll cosmetic domino skins by rarity, with duplicate rewards and skin multipliers defined in shared data modules.
 - Shop systems support Dot purchases and Roblox developer-product purchases for crates and domino packs.
 - StarterGui and StarterPlayer scripts handle the player-facing UI, messages, music, tutorial prompts, mobile controls, group prompts, and inventory interactions.
@@ -33,22 +33,6 @@ default.project.json        Rojo DataModel mapping
 - `src/ReplicatedStorage/DominoData.luau` defines purchasable domino packs.
 - `src/ServerScriptService/DatastoreControl.luau` wraps DataStore and ordered leaderboard access.
 - `src/ServerScriptService/Teleport.server.luau` moves players to named workspace objects through a remote event.
-
-## Development
-
-Install Rojo, then build the place file:
-
-```bash
-rojo build -o "Domino.rbxlx"
-```
-
-Open `Domino.rbxlx` in Roblox Studio, then start the Rojo server:
-
-```bash
-rojo serve
-```
-
-In Roblox Studio, connect the Rojo plugin to the local server. The mapping in `default.project.json` syncs this repository into Roblox services such as `ReplicatedStorage`, `ServerScriptService`, `ServerStorage`, `StarterGui`, and `StarterPlayerScripts`.
 
 ## Notes
 
